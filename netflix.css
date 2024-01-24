@@ -1,0 +1,420 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  .openpage {
+    background-color: black;
+    height: 100vh;
+    width: 100vw;
+    color: white;
+    /* z-index: -1; */
+    /* position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0; */
+    /* transform: scale(1.25) translateY(-10%); */
+  }
+  /* .opacity1 {
+    fill-opacity: 0.25;
+    fill: green;
+  } */
+  .background {
+    top: 0;
+    color: white;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+      url(openpagebg.jpg);
+    /* opacity: 0.3; */
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+    z-index: 3;
+  }
+  .navbar {
+    width: 100%;
+    height: 20%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: large;
+    margin-top: 0px;
+  }
+  .navbar img {
+    margin-left: 10%;
+  }
+  .openpage_content {
+    width: 80%;
+    height: 80%;
+    margin-left: 10%;
+    font-size: 2rem;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    flex-direction: column;
+  }
+  /* .openpage_content > * {
+    margin: 1em;
+  } */
+  .openpage_content .heading {
+    font-size: 1.7em;
+  }
+  .details {
+    margin-top: 15px;
+    width: 50%;
+    height: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .details .email {
+    color: white;
+    font-size: large;
+    background-color: #111717;
+    height: 100%;
+    width: 73%;
+  }
+  .details .get_started {
+    font-size: large;
+    height: 100%;
+    width: 25%;
+  }
+  .btns {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 10%;
+    width: 20%;
+    height: 100%;
+    font-size: larger;
+  }
+  select {
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+  }
+  
+  select:focus {
+    outline: none;
+  }
+  #red_color {
+    background-color: rgb(229, 9, 20);
+    color: white;
+    border: none;
+    border-radius: 5px;
+  }
+  .btns button {
+    font-size: 15px;
+    width: 40%;
+    height: 30%;
+  }
+  .enjoy {
+    color: white;
+    width: 100vw;
+    height: 80vh;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .enjoyleft {
+    font-size: 1.7em;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    color: white;
+    flex-direction: column;
+    height: 80%;
+    width: 40%;
+  }
+  .enjoyright {
+    height: 80%;
+    width: 40%;
+  }
+  .enjoyright img {
+    position: relative;
+    height: 100%;
+    width: 100%;
+    z-index: 3;
+  }
+  .enjoyright video {
+    position: absolute;
+    width: 394px;
+    height: 310px;
+    left: 730px;
+    bottom: -426px;
+    /* right: -2px; */
+    z-index: 1;
+  }
+  
+  .download {
+    color: white;
+    width: 100vw;
+    height: 80vh;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .default-ltr-cache-xfttou {
+    position: absolute;
+    background-color: black;
+    border: 3px solid #5a5a5a;
+    width: 311px;
+    height: 128px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    bottom: -1008px;
+    left: 255px;
+  }
+  .default-ltr-cache-xfttou img {
+    height: 96px;
+    width: 71px;
+  }
+  .downloadvideo {
+    width: 3rem;
+    height: 3rem;
+    outline: 2px solid rgb(0, 0, 0);
+    outline-offset: -2px;
+    display: block;
+    background: url(https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/download-icon.gif)
+      center center no-repeat;
+    -webkit-background-size: 100%;
+    background-size: 100%;
+    content: "";
+    -webkit-box-flex: 0;
+    -webkit-flex-grow: 0;
+    -ms-flex-positive: 0;
+    flex-grow: 0;
+    -webkit-flex-shrink: 0;
+    -ms-flex-negative: 0;
+    flex-shrink: 0;
+  }
+  .contents {
+    font-size: 20px;
+  }
+  .downloadleft {
+    /* border: 2px solid red; */
+    height: 80%;
+    width: 40%;
+  }
+  .downloadleft img {
+    width: 105%;
+    height: 105%;
+  }
+  .downloadright {
+    /* border: 2px solid white; */
+    font-size: 1.7em;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    color: white;
+    flex-direction: column;
+    height: 80%;
+    width: 40%;
+  }
+  .watch {
+    color: white;
+    width: 100vw;
+    height: 80vh;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .watchleft {
+    font-size: 1.7em;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    color: white;
+    flex-direction: column;
+    height: 80%;
+    width: 40%;
+  }
+  .watchright {
+    height: 80%;
+    width: 40%;
+  }
+  .watchright img {
+    position: relative;
+    height: 100%;
+    width: 100%;
+    z-index: 3;
+  }
+  .watchright video {
+    position: absolute;
+    width: 344px;
+    height: 337px;
+    left: 748px;
+    bottom: -1417px;
+    /* right: -2px; */
+    z-index: 1;
+  }
+  
+  .create {
+    color: white;
+    width: 100vw;
+    height: 80vh;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .createleft {
+    /* border: 2px solid red; */
+    height: 80%;
+    width: 40%;
+  }
+  .createleft img {
+    width: 100%;
+    height: 100%;
+  }
+  .createright {
+    /* border: 2px solid white; */
+    font-size: 1.7em;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    color: white;
+    flex-direction: column;
+    height: 80%;
+    width: 40%;
+  }
+  h1 {
+    font-size: 2.3em;
+  }
+  .frequentquestions {
+    width: 100vw;
+    height: 130vh;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .Questions {
+    height: 80%;
+    width: 76%;
+    /* border: 2px solid blue; */
+  }
+  .frequentquestions h1 {
+    text-align: center;
+    font-size: 3em;
+    margin-bottom: 10px;
+  }
+  .dropdown {
+    margin: auto;
+    width: 100%;
+  }
+  .dropdown li {
+    list-style: none;
+    width: 100%;
+    padding: 3px;
+  }
+  .dropdown li label {
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    padding: 20px;
+    background-color: #303030;
+    font-size: 1.7em;
+    font-weight: 500;
+    position: relative;
+    cursor: pointer;
+    margin-bottom: 2px;
+  }
+  /* to add plus box */
+  label::after {
+    content: "+";
+    font-size: 34px;
+    position: absolute;
+    right: 20px;
+    transition: transform 0.5s;
+  }
+  input[type="radio"] {
+    display: none;
+  }
+  .dropdown .content {
+    background-color: #303030;
+    font-size: 1.7em;
+    font-weight: 300;
+    text-align: left;
+    padding: 0 20px;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.5s, padding 0.5s;
+  }
+  .dropdown input[type="radio"]:checked + label + .content {
+    max-height: 600px;
+    padding: 30px 20px;
+  }
+  .dropdown input[type="radio"]:checked + label::after {
+    transform: rotate(135deg);
+  }
+  .readytowatch {
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    flex-direction: column;
+    /* border: 2px solid red; */
+    width: 100vw;
+    height: 20vh;
+    font-size: 1.3em;
+  }
+  .readytowatchdetails {
+    width: 43%;
+    height: 39%;
+  }
+  .emailready {
+    border-radius: 5px;
+    height: 100%;
+    width: 74%;
+    background-color: rgb(15, 15, 15);
+  }
+  .get_started {
+    width: 25%;
+    height: 100%;
+  }
+  .footer {
+    padding: 50px 15% 10px;
+    color: #777;
+    background-color: black;
+  }
+  .footer h2 {
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 30px;
+  }
+  .footer .col {
+    flex-basis: 25%;
+    flex-grow: 1;
+    margin-bottom: 20px;
+  }
+  .footer .col a {
+    display: block;
+    /* text-decoration: none; */
+    color: #777;
+    font-size: 14px;
+    margin-bottom: 10px;
+  }
+  .footer .row {
+    align-items: flex-start;
+    padding: 10px 0;
+    display: flex;
+    justify-content: flex-start;
+  }
+  select #languages {
+    background-color: #111717;
+    color: white;
+  }
